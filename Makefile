@@ -14,3 +14,6 @@ build: clean
 
 test: build
 	hevm dapp-test --json-file out/dss.json
+
+storage:
+	cat storageLayoutInput.json | docker run -i -v ~/Projects/dss/src:/src ethereum/solc:0.5.17 --standard-json --allow-paths . > ./out/storageLayoutOutput.json

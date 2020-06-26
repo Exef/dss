@@ -1,0 +1,51 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "lib.sol": {
+      "urls": ["./src/lib.sol"]
+    },
+    "cat.sol": {
+      "urls": ["./src/cat.sol"]
+    },
+    "dai.sol": {
+      "urls": ["./src/dai.sol"]
+    },
+    "end.sol": {
+      "urls": ["./src/end.sol"]
+    },
+    "flap.sol": {
+      "urls": ["./src/flap.sol"]
+    },
+    "flip.sol": {
+      "urls": ["./src/flip.sol"]
+    },
+    "flop.sol": {
+      "urls": ["./src/flop.sol"]
+    },
+    "join.sol": {
+      "urls": ["./src/join.sol"]
+    },
+    "jug.sol": {
+      "urls": ["./src/jug.sol"]
+    },
+    "pot.sol": {
+      "urls": ["./src/pot.sol"]
+    },
+    "spot.sol": {
+      "urls": ["./src/spot.sol"]
+    },
+    "vat.sol": {
+      "urls": ["./src/vat.sol"]
+    },
+    "vow.sol": {
+      "urls": ["./src/vow.sol"]
+    }
+  },
+  "settings": {
+    "outputSelection": {
+      "*": {
+        "*": ["storageLayout"]
+      }
+    }
+  }
+}
